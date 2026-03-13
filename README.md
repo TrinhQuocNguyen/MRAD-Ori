@@ -1,6 +1,6 @@
-# MRAD: Memory-based Retrieval Augmented Detection
+# MRAD: Memory Retrieval Anomaly Detection
 
-> **MRAD: Memory-based Retrieval Augmented Detection for Zero-shot Anomaly Detection**
+> **MRAD: Zero-Shot Anomaly Detection with Memory-Driven Retrieval**
 
 ## Introduction
 
