@@ -142,8 +142,8 @@ def load(name: str, device: Union[str, torch.device] = "cuda" if torch.cuda.is_a
     """
     print("name", name)
     if name in _MODELS:
-        # model_path = _download(_MODELS[name], download_root or os.path.expanduser("~/.cache/clip"))
-        model_path = _download(_MODELS[name], download_root or os.path.expanduser("/root/data/xcr3/projects/AnomalyCLIP-main/checkpoint"))
+        model_path = _download(_MODELS[name], download_root or os.path.expanduser("~/.cache/clip"))
+        # model_path = _download(_MODELS[name], download_root or os.path.expanduser("/root/data/xcr3/projects/AnomalyCLIP-main/checkpoint"))
     elif os.path.isfile(name):
         model_path = name
     else:

@@ -50,5 +50,6 @@ class VisASolver(object):
 
 
 if __name__ == '__main__':
-    runner = VisASolver(root='/root/data/xcr3/datasets/VisA_20220922')
+    # runner = VisASolver(root='/root/data/xcr3/datasets/VisA_20220922')
+    runner = VisASolver(root='/home/trinh/Workspaces/data/anomaly/VisA_20220922')
     runner.run()

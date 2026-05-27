@@ -15,7 +15,8 @@ import time
 import random
 import numpy as np
 from tabulate import tabulate
-from mrad import build_cache_model,compute_socre,compute_patch_socre,build_patch_cache_model,similarity_experiment
+from mrad import build_cache_model,compute_socre,compute_patch_socre,build_patch_cache_model
+# ,similarity_experiment
 from utils.visualization import visualizer
 from utils.metrics import image_level_metrics, pixel_level_metrics
 from scipy.ndimage import gaussian_filter
